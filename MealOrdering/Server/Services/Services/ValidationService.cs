@@ -31,7 +31,7 @@ namespace MealOrdering.Server.Services.Services
 
         public bool IsAdmin(Guid UserId)
         {
-            return httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Email).Value == "salihcantekin1@gmail.com";
+            return httpContextAccessor.HttpContext.User.FindFirst(ClaimTypes.Email).Value == "ibiko.9507@gmail.com";
         }
     }
 }
